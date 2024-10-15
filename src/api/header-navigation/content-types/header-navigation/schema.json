@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_navigations",
+  "info": {
+    "singularName": "header-navigation",
+    "pluralName": "header-navigations",
+    "displayName": "HeaderNavigation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NavigationItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.navigaion-item"
+    }
+  }
+}

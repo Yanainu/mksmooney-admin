@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_header_navigations",
+  "info": {
+    "displayName": "HeaderNavigation"
+  },
+  "options": {},
+  "attributes": {
+    "NavigationItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.navigaion-item"
+    }
+  }
+}

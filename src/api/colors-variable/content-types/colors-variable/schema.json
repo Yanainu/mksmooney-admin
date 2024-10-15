@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "colors_variables",
+  "info": {
+    "singularName": "colors-variable",
+    "pluralName": "colors-variables",
+    "displayName": "ColorsVariables",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageColors": {
+      "displayName": "pageColors",
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.page-colors"
+    }
+  }
+}

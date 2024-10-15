@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "coaching_pages",
+  "info": {
+    "singularName": "coaching-page",
+    "pluralName": "coaching-pages",
+    "displayName": "PageCoaching"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tttt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "vocal_pages",
+  "info": {
+    "singularName": "vocal-page",
+    "pluralName": "vocal-pages",
+    "displayName": "PageVocal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VocalAboutMe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.vocal-about-me"
+    }
+  }
+}

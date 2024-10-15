@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_ui_vocal_about_mes",
+  "info": {
+    "displayName": "Vocal-AboutMe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "text"
+    },
+    "titleMainWord": {
+      "type": "text"
+    },
+    "descriptionLink": {
+      "type": "text"
+    },
+    "descriptionLinkURL": {
+      "type": "text"
+    },
+    "leftPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rightPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonLink": {
+      "type": "text"
+    }
+  }
+}
