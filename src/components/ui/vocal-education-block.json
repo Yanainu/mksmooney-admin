@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_vocal_education_blocks",
+  "info": {
+    "displayName": "VocalEducationBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "year": {
+      "type": "text"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

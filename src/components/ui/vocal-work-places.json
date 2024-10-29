@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_vocal_work_places",
+  "info": {
+    "displayName": "Vocal-WorkPlaces",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "InfoSquareBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.vocal-work-places-block"
+    }
+  }
+}

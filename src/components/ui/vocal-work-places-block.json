@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_ui_vocal_work_places_blocks",
+  "info": {
+    "displayName": "InfoSquareBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "colorTheme": {
+      "type": "enumeration",
+      "enum": [
+        "vocal",
+        "fateInc",
+        "coaching"
+      ]
+    },
+    "isPhotoOnly": {
+      "type": "boolean"
+    },
+    "hasArrowIconTop": {
+      "type": "boolean"
+    },
+    "hasArrowIconBottom": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

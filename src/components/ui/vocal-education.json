@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_vocal_educations",
+  "info": {
+    "displayName": "Vocal-Education",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "VocalEducationBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.vocal-education-block"
+    }
+  }
+}

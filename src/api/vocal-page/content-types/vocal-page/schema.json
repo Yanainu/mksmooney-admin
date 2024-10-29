@@ -16,6 +16,16 @@
       "type": "component",
       "repeatable": false,
       "component": "ui.vocal-about-me"
+    },
+    "VocalEducation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.vocal-education"
+    },
+    "VocalWorkPlaces": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.vocal-work-places"
     }
   }
 }
