@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_vocal_achievements",
+  "info": {
+    "displayName": "Vocal-Achievements"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "InfoSquareBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.vocal-work-places-block"
+    }
+  }
+}

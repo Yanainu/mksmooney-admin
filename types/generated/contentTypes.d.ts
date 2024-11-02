@@ -938,6 +938,7 @@ export interface ApiVocalPageVocalPage extends Schema.SingleType {
     VocalAboutMe: Attribute.Component<'ui.vocal-about-me'>;
     VocalEducation: Attribute.Component<'ui.vocal-education'>;
     VocalWorkPlaces: Attribute.Component<'ui.vocal-work-places'>;
+    VocalAchievements: Attribute.Component<'ui.vocal-achievements'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

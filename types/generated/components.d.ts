@@ -49,6 +49,17 @@ export interface UiVocalAboutMe extends Schema.Component {
   };
 }
 
+export interface UiVocalAchievements extends Schema.Component {
+  collectionName: 'components_ui_vocal_achievements';
+  info: {
+    displayName: 'Vocal-Achievements';
+  };
+  attributes: {
+    title: Attribute.Text;
+    InfoSquareBlocks: Attribute.Component<'ui.vocal-work-places-block', true>;
+  };
+}
+
 export interface UiVocalEducationBlock extends Schema.Component {
   collectionName: 'components_ui_vocal_education_blocks';
   info: {
@@ -113,6 +124,7 @@ declare module '@strapi/types' {
       'ui.header-navigation': UiHeaderNavigation;
       'ui.navigaion-item': UiNavigaionItem;
       'ui.vocal-about-me': UiVocalAboutMe;
+      'ui.vocal-achievements': UiVocalAchievements;
       'ui.vocal-education-block': UiVocalEducationBlock;
       'ui.vocal-education': UiVocalEducation;
       'ui.vocal-work-places-block': UiVocalWorkPlacesBlock;
