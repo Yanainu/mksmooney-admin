@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_vocal_media_song_components",
+  "info": {
+    "displayName": "VocalMediaSongComponent"
+  },
+  "options": {},
+  "attributes": {
+    "artist": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "audio": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

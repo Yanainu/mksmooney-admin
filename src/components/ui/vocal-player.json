@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_vocal_players",
+  "info": {
+    "displayName": "Vocal-Media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "Songs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.vocal-media-song-component"
+    }
+  }
+}
