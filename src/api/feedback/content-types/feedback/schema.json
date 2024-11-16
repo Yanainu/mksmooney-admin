@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedbacks",
+  "info": {
+    "singularName": "feedback",
+    "pluralName": "feedbacks",
+    "displayName": "Feedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "author": {
+      "type": "text"
+    },
+    "publish": {
+      "type": "boolean"
+    },
+    "text_markdown": {
+      "type": "richtext"
+    },
+    "blocksTest": {
+      "type": "blocks"
+    }
+  }
+}

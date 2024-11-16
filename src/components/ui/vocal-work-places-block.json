@@ -45,6 +45,9 @@
     },
     "link": {
       "type": "text"
+    },
+    "isFeedback": {
+      "type": "boolean"
     }
   }
 }

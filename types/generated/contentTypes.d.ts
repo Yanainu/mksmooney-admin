@@ -893,6 +893,41 @@ export interface ApiFateIncPageFateIncPage extends Schema.SingleType {
   };
 }
 
+export interface ApiFeedbackFeedback extends Schema.CollectionType {
+  collectionName: 'feedbacks';
+  info: {
+    singularName: 'feedback';
+    pluralName: 'feedbacks';
+    displayName: 'Feedback';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    text: Attribute.Text;
+    author: Attribute.Text;
+    publish: Attribute.Boolean;
+    text_markdown: Attribute.RichText;
+    blocksTest: Attribute.Blocks;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::feedback.feedback',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::feedback.feedback',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiHeaderNavigationHeaderNavigation extends Schema.SingleType {
   collectionName: 'header_navigations';
   info: {
@@ -940,6 +975,7 @@ export interface ApiVocalPageVocalPage extends Schema.SingleType {
     VocalWorkPlaces: Attribute.Component<'ui.vocal-work-places'>;
     VocalAchievements: Attribute.Component<'ui.vocal-achievements'>;
     VocalMedia: Attribute.Component<'ui.vocal-player'>;
+    VocalFeedback: Attribute.Component<'ui.vocal-feedback'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -980,6 +1016,7 @@ declare module '@strapi/types' {
       'api::color.color': ApiColorColor;
       'api::colors-variable.colors-variable': ApiColorsVariableColorsVariable;
       'api::fate-inc-page.fate-inc-page': ApiFateIncPageFateIncPage;
+      'api::feedback.feedback': ApiFeedbackFeedback;
       'api::header-navigation.header-navigation': ApiHeaderNavigationHeaderNavigation;
       'api::vocal-page.vocal-page': ApiVocalPageVocalPage;
     }

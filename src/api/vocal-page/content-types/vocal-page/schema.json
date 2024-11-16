@@ -36,6 +36,11 @@
       "type": "component",
       "repeatable": false,
       "component": "ui.vocal-player"
+    },
+    "VocalFeedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.vocal-feedback"
     }
   }
 }

@@ -86,6 +86,17 @@ export interface UiVocalEducation extends Schema.Component {
   };
 }
 
+export interface UiVocalFeedback extends Schema.Component {
+  collectionName: 'components_ui_vocal_feedbacks';
+  info: {
+    displayName: 'Vocal-Feedback';
+  };
+  attributes: {
+    title: Attribute.Text;
+    InfoSquareBlocks: Attribute.Component<'ui.vocal-work-places-block', true>;
+  };
+}
+
 export interface UiVocalMediaSongComponent extends Schema.Component {
   collectionName: 'components_ui_vocal_media_song_components';
   info: {
@@ -126,6 +137,7 @@ export interface UiVocalWorkPlacesBlock extends Schema.Component {
     hasArrowIconTop: Attribute.Boolean;
     hasArrowIconBottom: Attribute.Boolean;
     link: Attribute.Text;
+    isFeedback: Attribute.Boolean;
   };
 }
 
@@ -151,6 +163,7 @@ declare module '@strapi/types' {
       'ui.vocal-achievements': UiVocalAchievements;
       'ui.vocal-education-block': UiVocalEducationBlock;
       'ui.vocal-education': UiVocalEducation;
+      'ui.vocal-feedback': UiVocalFeedback;
       'ui.vocal-media-song-component': UiVocalMediaSongComponent;
       'ui.vocal-player': UiVocalPlayer;
       'ui.vocal-work-places-block': UiVocalWorkPlacesBlock;

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_vocal_feedbacks",
+  "info": {
+    "displayName": "Vocal-Feedback"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "InfoSquareBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.vocal-work-places-block"
+    }
+  }
+}
