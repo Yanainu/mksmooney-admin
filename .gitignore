@@ -102,7 +102,7 @@ node_modules
 coverage
 
 ############################
-# Strapi
+# Strapi branch v5 main--test_upd_strapi_ver
 ############################
 
 .env
